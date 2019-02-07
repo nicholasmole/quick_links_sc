@@ -1,0 +1,39 @@
+@media screen and (min-width: 767px) {
+	.qlsc_outer_container .contain-testimonial-desktop-only {
+		display: none;
+	}
+}
+.qlsc_outer_container {
+	padding-left: 6px;
+	padding-right: 6px;
+	margin-left: -6px;
+	margin-right: -6px;
+}
+
+.qlsc_container {
+	background: #ededed;
+}
+
+.qlsc_endpoint {
+	background: #1d4b7d;
+	color: #fff;
+	font-size: 14px;
+	padding: 5px 10px;
+	font-weight: bold;
+	border-radius: 5px;
+	text-align: center;
+}
+.qlsc_link_container {
+	margin: 30px 26px 30px 26px;
+	display: block;
+	color: #555555;
+	line-height: 1.2;
+	text-align: center;
+}
+.qlsc_link_container p {
+	display: inline;
+}
+.qlsc_link_container img {
+	display: block;
+	margin: 0 auto;
+}
