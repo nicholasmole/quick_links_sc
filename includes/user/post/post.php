@@ -31,9 +31,16 @@
 		TRUE
 	);
 
+	$qlsc_quick_link_link_3 = get_post_meta( 
+		$post->ID, 
+		'qlsc_quick_link_link_3',
+		TRUE
+	);
+
 	$link_0_content = '';
 	$link_1_content = '';
 	$link_2_content = '';
+	$link_3_content = '';
 
 	$plugin_qlsc_data = get_option('plugin_nmole_qlsc_options');
 	foreach ($plugin_qlsc_data as $index) {  // index loop for current_data
@@ -46,6 +53,9 @@
 			}
 			if ($data['id'] === $qlsc_quick_link_link_2) {
 				$link_2_content = $data;
+			}
+			if ($data['id'] === $qlsc_quick_link_link_3) {
+				$link_3_content = $data;
 			}
 		}
 	}

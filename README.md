@@ -2,6 +2,10 @@
 
 Quick Links Component created using shortcodes
 
+#### Version
+
+0.1.1
+
 ## Long Description
 
 Set up quick links components onto a page using turning on this plugin. 

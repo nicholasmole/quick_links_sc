@@ -61,6 +61,21 @@
 				</p>
 			</a>
 		<?php } ?>
+
+		<?php if ($link_3_content) { ?>
+			<a 
+				class="qlsc_link_container" 
+				href="<?php echo $link_3_content['link']?>"
+			>
+				<img
+					src="<?php echo $link_3_content['image_source']?>"
+					alt="<?php echo $link_3_content['image_alt']?>"
+				/>
+				<p>
+					<?php echo $link_3_content['text']?>
+				</p>
+			</a>
+		<?php } ?>
 		<!--
 			Display Quick Links Footer
 		-->

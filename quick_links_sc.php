@@ -2,7 +2,7 @@
  /**
  * Plugin Name: Quick Links SC
  * Description: Quick Links Component created using shortcodes
- * Version: 0.1.0
+ * Version: 0.1.1
  * Author: Nick Mole
  * Text Domain: Quick-Links-Sc
  */

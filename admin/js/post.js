@@ -61,7 +61,7 @@ function qlsc_select_quick_links(select) {
 	// input_field.innerHTML(inner_input_content);
 	document.querySelector('#quick_links_sc_quick_links_dropdown_area').appendChild(input_field);
 
-	if (id.length >= 2) {
+	if (id.length >= 3) {
 		document.querySelector('#qlsc_select_quick_links_link_add_new').innerHTML = `
 			<p class="post-attributes-label-wrapper">
 				

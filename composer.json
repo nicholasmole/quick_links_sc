@@ -1,7 +1,7 @@
 
 {
   "name": "nicholasmole/quick_links_sc",
-  "version" : "0.1.0",
+  "version" : "0.1.1",
   "description": "Quick Links Component created using shortcodes",
   "type": "wordpress-plugin",
   "authors": [

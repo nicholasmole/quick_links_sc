@@ -31,6 +31,12 @@
 		'qlsc_quick_link_link_2',
 		TRUE
 	);
+	
+	$qlsc_quick_link_link_3 = get_post_meta( 
+		$post->ID, 
+		'qlsc_quick_link_link_3',
+		TRUE
+	);
 
 	$plugin_qlsc_data = get_option('plugin_nmole_qlsc_options');
 	$plugin_qlsc_data_json = json_encode($plugin_qlsc_data);

@@ -32,9 +32,10 @@
 
 			<?php 
 				if (
-						($i === 0 && ($qlsc_quick_link_link_0 !== '' || $qlsc_quick_link_link_1 !== '' || $qlsc_quick_link_link_2 !== '')) ||
-						($i === 1 && ($qlsc_quick_link_link_1 !== '' || $qlsc_quick_link_link_2 !== '')) ||
-						($i === 2 && $qlsc_quick_link_link_2 !== '') 
+						($i === 0 && ($qlsc_quick_link_link_0 !== '' || $qlsc_quick_link_link_1 !== '' || $qlsc_quick_link_link_2 !== '' || $qlsc_quick_link_link_3 !== '')) ||
+						($i === 1 && ($qlsc_quick_link_link_1 !== '' || $qlsc_quick_link_link_2 !== '' || $qlsc_quick_link_link_3 !== '')) ||
+						($i === 2 && ($qlsc_quick_link_link_2 !== '' || $qlsc_quick_link_link_3 !== '')) ||
+						($i === 3 && $qlsc_quick_link_link_3 !== '') 
 				 	 ) { 
 			?>
 
@@ -88,7 +89,7 @@
 
 	</span>
 
-	<?php if ($qlsc_quick_link_link_2 === '') { ?>
+	<?php if ($qlsc_quick_link_link_3 === '') { ?>
 
 		<p class="post-attributes-label-wrapper" id="qlsc_select_quick_links_link_add_new">
 			<a 

@@ -141,6 +141,7 @@ class qlsc_admin {
 					'qlsc_quick_link_link_0',
 					'qlsc_quick_link_link_1',
 					'qlsc_quick_link_link_2',
+					'qlsc_quick_link_link_3',
 				);
 
 				foreach ($keys_to_save as $key ) {
