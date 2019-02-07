@@ -2,6 +2,10 @@
 
 	$current_data = get_option('plugin_nmole_qlsc_options');
 
+	if (!$current_data) {
+		
+		$current_data = array();
+	}
 	// Check if content should be removed
 	if ($_GET["remove"]) {
 	
